@@ -1,0 +1,242 @@
+* {
+	margin: 0px;
+	padding:0px;
+
+
+}
+html{
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffd23a; 
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+.me{
+	height: 100%;
+	width: 300px;
+	background-color: #0a0b0a;
+	float: left;
+	text-align: center;
+	position: fixed;
+}
+.dp{
+	border-radius: 50%;
+	height: 140px;
+	width: 130px;
+	border:4px solid #ffd23a;
+	display: block;
+	margin:auto;
+	margin-top: 35px;
+	
+}
+.sbuttons {
+	list-style-type: none;
+}
+.sbuttons button  {
+	margin:20px auto;
+	display: block;
+	background-color: #313330;
+	border: none;
+	padding: 10px 100px;
+	border-radius: 50px;
+}
+.sbuttons button a {
+	text-decoration: none;
+	color: white;
+}
+.mef {
+	font-family: 'Shippori Antique B1', sans-serif;
+	padding-left: 40%;
+	padding-top: 220px;
+	padding-bottom: 200px;
+
+}
+.s2buttons button{
+	background-color: #313330;
+	border: none;
+	padding: 4px 25px;
+	border-radius: 20px;
+}
+.s2buttons button a{
+	text-decoration: none;
+	color: white;
+}
+.pa{
+	margin-bottom: 500px;
+}
+.about {
+	padding-left: 55%;
+	padding-top: 20px;
+	
+}
+.about1 {
+	padding-left: 40%;
+	float: left;
+
+}
+.about1 p{
+	padding-left: 2%;
+	padding-top: 25px;
+	
+}
+.about1 button{
+	margin-top: 25px;
+    display: block;
+	background-color: #313330;
+	border: none;
+	padding: 10px 70px;
+	border-radius: 50px;
+	
+}
+.about1 button a{
+	text-decoration: none;
+	color: white;
+	margin-bottom: 500px;
+}
+.about2 {
+	background-color: #313330;
+	width: 13%;
+	height: 150px;
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.material {
+	text-align: center;
+	padding-top: 35%;
+}
+.tc{
+	color:  #ffd23a;
+}
+.edu{
+	margin-bottom: 600px;
+}
+
+.edu1 {
+	width: 27%;
+	background-color: #313330;
+	height: 175px;
+	float: left;
+	margin-left: 33%;
+
+
+}
+.edu2 {
+	width: 27%;
+	background-color: #313330;
+	height: 175px;
+	float: right;
+	margin-right: 5%;
+}
+
+.edu3 {
+	width: 27%;
+	background-color: #313330;
+	height: 175px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 47%;
+	
+}
+.edu4{
+	text-align: center;
+	color:  #ffd23a;
+	font-family: 'Nanum Myeongjo', serif;
+	padding-top: 5px;
+
+}
+.edu5{
+	padding-top: 4%;
+	font-size: 0.8em;
+}
+.cme {
+	padding-left: 33%;
+	float: left;
+	padding-top: 100px;
+
+}
+.cme a{
+    color: white;
+    text-decoration-line: none;
+}
+.cmef {
+	background-color: black;
+	width: 25%;
+	height: 400px;
+	float: right;
+	margin-right: 30px;
+}
+.cmef1{
+	background-color: #313330;
+	color: white;
+	width: 100%;
+	margin-top: 50px;
+	padding: 5px;
+	border-radius: 5px 5px 5px 5px;
+	border:none;
+	outline: none;
+
+}
+.cmef2{
+	background-color: #313330;
+	color: white;
+	width: 100%;
+	margin-top: 15px;
+	padding: 5px;
+	border-radius: 5px 5px 5px 5px;
+	border:none;
+	outline: none;
+}
+.cmef3{
+	background-color: #313330;
+	width: 100%;
+	color: white;
+	margin-top: 15px;
+	border-radius: 5px 5px 5px 5px;
+	border:none;
+	outline: none;
+}
+.cmef4{
+	background-color: #313330;
+	color: white;
+	width: 30%;
+	margin-top: 15px;
+	padding: 5px;
+	border-radius: 40px 40px 40px 40px;
+	border:none;
+	outline: none;
+}
+.scrolltop {
+	float: right;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
