@@ -46,6 +46,7 @@ body {
 	float: left;
 	text-align: center;
 	position: fixed;
+	overflow: scroll;
 }
 .dp{
 	border-radius: 50%;
